@@ -492,8 +492,7 @@ footer h3 {
 footer li {
   list-style: none; }
   footer li a {
-    display: block;
-    text-transform: capitalize; }
+    display: block; }
     footer li a:hover {
       color: #ea891f; }
 
