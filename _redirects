@@ -1,4 +1,4 @@
 https://nanobrasil.co/* https://nanobrasil.org/:splat 301!
 https://www.nanobrasil.co/* https://nanobrasil.org/:splat 301!
 
-/price https://api.coinmarketcap.com/v1/ticker/raiblocks/?convert=BRL 200!
+/price https://api.coinmarketcap.com/v1/ticker/raiblocks/ 200!
