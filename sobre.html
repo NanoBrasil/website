@@ -143,5 +143,13 @@
          </div>
       </footer>
       <script src="./assets/js/tinyslider.js"></script><script>function toggleContextual(e){e.preventDefault(),document.getElementById(this.href.split("#")[1]).classList.toggle("active")}tns({container:".carousel",items:1,slideBy:"page",nav:!1,responsive:{800:{items:4}}});var o,community=document.getElementById("community"),triggers=document.querySelectorAll(".trigger-contextual");for(o=0;o<triggers.length;++o)triggers[o].addEventListener("click",toggleContextual,!1),!function t(){var e=new XMLHttpRequest;e.open("GET","/price?convert=BRL",!0),e.onload=function(){this.status>=200&&this.status<400&&(document.getElementsByClassName("xrb")[0].innerHTML="R$"+parseFloat(JSON.parse(this.response)[0].price_brl).toFixed(2))},e.send(),setTimeout(t,1e4)}();</script>
+	  <script>
+	  (function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+	  ;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+	  ;c.parentNode.insertBefore(a,c)
+	  })(window,document,"galite","script","./assets/js/ga-lite.min.js");
+	  galite('create', 'UA-114148535-1', 'auto');
+	  galite('send', 'pageview');
+	  </script>
    </body>
 </html>
