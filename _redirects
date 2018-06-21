@@ -1,8 +1,10 @@
 https://nanobrasil.co/* https://nanobrasil.org/:splat 301!
 https://www.nanobrasil.co/* https://nanobrasil.org/:splat 301!
+http://nanobrasil.org/* https://nanobrasil.org/:splat 301!
 
 /price https://api.coinmarketcap.com/v1/ticker/nano/ 200!
 
-/representative/* https://carteiranano.com/representative/:splat 200!
-
-/representante/* https://carteiranano.com/representative/:splat 200!
+http://nanobrasil.org/representative/* https://carteiranano.com/representative/:splat 200!
+https://nanobrasil.org/representative/* https://carteiranano.com/representative/:splat 200!
+http://nanobrasil.org/representante/* https://carteiranano.com/representative/:splat 200!
+https://nanobrasil.org/representante/* https://carteiranano.com/representative/:splat 200!
