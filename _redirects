@@ -6,5 +6,5 @@ http://nanobrasil.org/* https://nanobrasil.org/:splat 301!
 
 /representative/* https://carteiranano.com/representative/:splat 200!
 /representante/* https://carteiranano.com/representative/:splat 200!
-https://nanobrasil.org/representative /representative/ 301!
-https://nanobrasil.org/representante /representante/ 301!
+/representative* /representative/:splat 301!
+/representante* /representante/:splat 301!
