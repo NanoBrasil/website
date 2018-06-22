@@ -4,6 +4,5 @@ http://nanobrasil.org/* https://nanobrasil.org/:splat 301!
 
 /price https://api.coinmarketcap.com/v1/ticker/nano/ 200!
 
-/representative* https://carteiranano.com/representative:splat 200!
-/representante* https://carteiranano.com/representative:splat 200!
-
+/representative https://carteiranano.com/representative/ 200!
+/representante https://carteiranano.com/representative/ 200!
